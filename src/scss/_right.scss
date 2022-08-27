@@ -1,0 +1,73 @@
+.right{
+  flex:7;
+  padding: 30px;
+  color: black;
+  font-size: 15px;
+
+  h1{
+    font-weight: bold;
+    color: rgb(16, 130, 187);
+
+  }
+
+  .title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+    
+    .job-position{
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .date{
+      font-size: 12px;
+      font-weight: bold;
+      transform: translateY(5px);
+    }
+    
+  }
+
+  .company{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: $purple-gray;
+  }
+
+  .description{
+    margin-bottom: 10px;
+  }
+
+  .summary{
+    li{
+      margin: 0 0 10px 20px
+    }
+  }
+
+
+
+  .skills{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 25px;
+    margin: 30px 0;
+    transform : translateX(5px);
+    // center the grid
+
+    .skill{
+      font-size: 12px;
+
+      svg{
+        color: $purple-gray;
+        transform: translateY(1.1px) scale(1.8);
+      }
+      
+      span{
+        margin-left: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+}

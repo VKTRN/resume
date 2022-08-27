@@ -1,0 +1,57 @@
+.left{
+  flex: 3;
+  background: $purple-gray;
+  border-left: 20px solid $blue;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 20px;
+  color: $color-text;
+
+
+  h1{
+    color: $heading-text;
+  }
+
+  .photo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+          width: 80%;
+          border-radius: 50%;
+          // border: 1px solid white;
+      }
+  }
+
+  .name{
+      div{
+          font-size: 40px;
+          font-weight: bold;
+          color: $heading-text;
+      }
+  }
+
+  .about{
+
+  }
+
+  .contact{
+      div{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          margin: 8px 0;
+        
+          .contact-value{
+            transform: translateY(-2px);
+          }
+
+      }
+  }
+
+  .education{
+
+  }
+}
