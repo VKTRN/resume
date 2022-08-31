@@ -32,9 +32,11 @@ h1{
         background: white;
         box-shadow: 5px 21px 20px 20px #3d3f4238;
         display: flex;
-    
+    }
 
-    
-
+    .print-pdf{
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
     }
 }

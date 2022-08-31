@@ -13,17 +13,16 @@ export const Left = () => {
       </div>
       <div className = 'name'>
         <div>Viktor Niedens</div>
+        <span className = 'craft'>
+            Frontend Developer
+        </span>
       </div>
       <div className = 'about'>
         <h1>About</h1>
         <p>I am a software engineer based in Hannover, Germany. I specialize in fullstack web development with a focus on frontend development. I like to write clean, readable, reusable code and deliver a smooth and intuitive user experience.</p>
       </div>
 
-      <div className = 'education'>
-        <h1>Education</h1>
-        <div>M.Sc. Computational Engineering</div>
-        <div>Leibniz Universität Hannover - 2021</div>
-      </div>
+
       
       <div className = 'contact'>
         <h1>Contact</h1>

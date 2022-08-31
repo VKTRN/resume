@@ -37,15 +37,34 @@
 
   .description{
     margin-bottom: 10px;
+    font-size: 17px;
+    margin-top: 40px;
+    font-weight: bold;
   }
-
   .summary{
     li{
-      margin: 0 0 10px 20px
+      margin: 0 0 10px 20px;
     }
   }
 
+  .educations{
 
+    .education{
+      margin: 30px 0;
+    }
+    
+    font-weight: bold;
+    .university{
+      color: rgb(16, 130, 187);
+    }
+  }
+  
+  .tech{
+    color: rgb(16, 130, 187);
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
 
   .skills{
     display: grid;

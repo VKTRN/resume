@@ -1,6 +1,6 @@
 .left{
   flex: 3;
-  background: $purple-gray;
+  background-color: $purple-gray;   
   border-left: 20px solid $blue;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,12 @@
           font-weight: bold;
           color: $heading-text;
       }
+      .craft{
+        font-size: 21px;
+        color: white;
+      }
   }
+
 
   .about{
 
