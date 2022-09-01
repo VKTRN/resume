@@ -7,30 +7,11 @@ import {SiWebpack}     from 'react-icons/si'
 import {FaDocker}      from 'react-icons/fa'
 import {FaHtml5}       from 'react-icons/fa'
 import {FaSass}        from 'react-icons/fa'
-import {DiScrum}       from 'react-icons/di'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export const Right = () => {
   return (
     <div className = 'right'>
+     
       <div>
         <h1>Experience</h1>
 
@@ -40,6 +21,7 @@ export const Right = () => {
               <span className = 'date'>September 2021 - Present</span>
           </div>
           <div className = 'company'>Treubrodt Consulting | Lehre, Niedersachsen</div>
+          
           <div className = 'project'>
             <p className = 'description'>
               Design unification of multiple user authentication systems for Volkswagen
@@ -89,12 +71,14 @@ export const Right = () => {
             </ul>
                 <span className = 'tech'>HTML &bull; CSS</span>
           </div >
+
         </div>
 
 
 
 
       </div>
+      
       <div>
         <h1>Skills</h1>
         <div className = 'skills'>

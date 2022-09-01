@@ -4,6 +4,9 @@ import {IoMdMailOpen}    from 'react-icons/io'
 import {FaXingSquare}    from 'react-icons/fa'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {TbWorld}         from 'react-icons/tb'
+import {MdLocationOn}         from 'react-icons/md'
+
+
 
 export const Left = () => {
   return (
@@ -55,6 +58,13 @@ export const Left = () => {
           </div>
 
         </IconContext.Provider>
+      </div>
+
+      <div className = 'location'>
+        <MdLocationOn />
+        <span>Alte Stöckener Str. 12</span>
+        <span>30419 Hannover</span>
+        <span>Niedersachsen</span>
       </div>
   </div>
   )

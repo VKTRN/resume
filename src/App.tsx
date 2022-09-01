@@ -19,7 +19,7 @@ export const App = () => {
   return (
     <div className = 'app'>
       <Resume/>
-      <button className = 'print-pdf' onClick={printPDF}>print</button>
+      {/* <button className = 'print-pdf' onClick={printPDF}>print</button> */}
     </div>
   )
 }
