@@ -35,14 +35,14 @@
 
   .company{
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: $purple-gray;
   }
 
   .description{
     margin-bottom: 10px;
     font-size: $large;
-    margin-top: 40px;
+    margin-top: 35px;
     font-weight: bold;
   }
 
@@ -56,7 +56,7 @@
   .educations{
 
     .education{
-      margin: 30px 0;
+      margin: 20px 0;
     }
     
     font-weight: bold;
@@ -76,7 +76,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 25px;
-    margin: 20px 0;
+    margin: 20px 0 30px 0;
     transform : translateX(5px);
     // center the grid
 
@@ -94,4 +94,17 @@
       }
     }
   }
+
+  .scrum{
+    display: flex;
+    justify-content: center;
+    font-size: $small;
+    font-weight: bold;    
+
+    svg{
+      color: $purple-gray;
+      transform: translate(-8px,1.1px) scale(2.5);
+    }
+  }
+
 }

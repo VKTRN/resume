@@ -4,7 +4,8 @@ import {IoMdMailOpen}    from 'react-icons/io'
 import {FaXingSquare}    from 'react-icons/fa'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {TbWorld}         from 'react-icons/tb'
-import {MdLocationOn}         from 'react-icons/md'
+import {MdLocationOn}    from 'react-icons/md'
+import {text}            from './english'
 
 
 
@@ -12,7 +13,7 @@ export const Left = () => {
   return (
     <div className = 'left'>
       <div className = 'photo'>
-        <img src = './profile.jpg' alt = 'photo'/>
+        <img src = './cropped.jpg' alt = 'photo'/>
       </div>
       <div className = 'name'>
         <div>Viktor Niedens</div>
@@ -21,14 +22,14 @@ export const Left = () => {
         </span>
       </div>
       <div className = 'about'>
-        <h1>About</h1>
-        <p>I am a software engineer based in Hannover, Germany. I specialize in fullstack web development with a focus on frontend development. I like to write clean, readable, reusable code and deliver a smooth and intuitive user experience.</p>
+        <h1>{text.about.title}</h1>
+        <p>{text.about.text}</p>
       </div>
 
 
       
       <div className = 'contact'>
-        <h1>Contact</h1>
+        <h1>{text.contact}</h1>
 
         <IconContext.Provider value={{ className: "shared-class", size: '30px' }}>
           
